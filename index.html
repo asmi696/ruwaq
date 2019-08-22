@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>RUWAQ</title>
+		<style>
+			body{
+				background-color:	#043F21;
+				color:				#ffffff;
+				}
+		</style>
+  </head>
+  <body>
+  <div class="main">
+	<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+		<div class="container">  
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		  </button>
+		  <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+			<a class="navbar-brand font-weight-bolder text-success" href="index.html">RUWAQ</a>
+			<ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+			  <li class="nav-item active">
+				<a class="nav-link text-success" href="#">Feedback <span class="sr-only">(current)</span></a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link text-success" href="admin.html">Admin</a>
+			  </li>
+			</ul>
+			<!--<form class="form-inline my-2 my-lg-0">
+			  <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+			  <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+			</form>-->
+		  </div>
+		</div>
+	</nav>
+	<div class="mt-5 container">
+		<div class="row pt-5">
+			<div class="col d-flex justify-content-around">
+			<h1>RUWAQ USER FEEDBACK</h1>
+			<h1>ملاحظات المستخدمين لنظام رواق</h1>
+			</div>
+		</div>
+			<div class="text-center"><img src="img/logo.jpg" alt="logo"></div>
+		<div class="text-center col-md-8 offset-2">
+			<div class="card mt-5">
+			  <div class="card-header col d-flex justify-content-between">
+				<h5 class="text-success">Required Fields</h5>
+				<h5 class="text-success">حقول إلزامية</h5>
+			  </div>
+			  <div class="card-body text-success">
+				<div class="container">
+				  <div class="row justify-content-around">
+					<div class="col-3 text-left">Title</div>
+					<div class="col-6">
+						<form><input type="text" class="form-control" id="formGroupExampleInput" placeholder="Enter the title"></form>
+					</div>
+					<div class="col-3 text-right">العنوان</div>
+				  </div>
+				  <div class="row justify-content-around mt-3">
+					<div class="col-3 text-left">Comment</div>
+					<div class="col-6">
+						<form><textarea class="form-control" id="validationTextarea" style="height:200px;" placeholder="Enter your comment"></textarea></form>
+					</div>
+					<div class="col-3 text-right">الملاحظة</div>
+				  </div>
+				  <div class="row justify-content-around mt-3">
+					<div class="col-3 text-left">Categories</div>
+					<div class="col-6 text-left form-group">
+						<select class="form-control" id="exampleFormControlSelect1">
+						  <option>Select your Request</option>
+						  <option>Feature Requests</option>
+						  <option>Bug Reports</option>
+						</select>
+					</div>
+					<div class="col-3 text-right">التصنيف</div>
+				  </div>
+				</div>
+			  </div>
+			</div>
+			
+			<div class="card my-5">
+			  <div class="card-header col d-flex justify-content-between">
+				<h5 class="text-success">Optional Fields</h5>
+				<h5 class="text-success">حقول اختيارية</h5>
+			  </div>
+			  <div class="card-body text-success">
+				<div class="container">
+				  <div class="row justify-content-around">
+					<div class="col-3 text-left">Component</div>
+					<div class="col-6 text-left form-group">
+						<select class="form-control" id="exampleFormControlSelect1">
+						  <option>Select your OS</option>
+						  <option>Mac</option>
+						  <option>MicroSoft</option>
+						  <option>Linux</option>
+						</select>
+					</div>
+					<div class="col-3 text-right">مكون</div>
+				  </div>
+				  <div class="row justify-content-around">
+					<div class="col-3 text-left">Interface</div>
+					<div class="col-6 text-left form-group">
+						<select class="form-control" id="exampleFormControlSelect1">
+						  <option>Select your Device</option>
+						  <option>PC</option>
+						  <option>Laptop</option>
+						  <option>Tab</option>
+						  <option>Mobile</option>
+						</select>
+					</div>
+					<div class="col-3 text-right">واجهة</div>
+				  </div>
+				  <div class="row justify-content-around">
+					<div class="col-3 text-left">Your Name</div>
+					<div class="col-6">
+						<form><input type="text" class="form-control" id="formGroupExampleInput" placeholder="Enter your name"></form>
+					</div>
+					<div class="col-3 text-right">اسمك</div>
+				  </div>
+				  <div class="row justify-content-around mt-3">
+					<div class="col-3 text-left">Mobile</div>
+					<div class="col-6">
+						<form><input type="text" class="form-control" id="formGroupExampleInput" placeholder="Enter your mobile number"></form>
+					</div>
+					<div class="col-3 text-right">الجوال</div>
+				  </div>
+				  <div class="row justify-content-around mt-3">
+					<div class="col-3 text-left">Organization</div>
+					<div class="col-6">
+						<form><input type="text" class="form-control" id="formGroupExampleInput" placeholder="Enter your Organization"></form>
+					</div>
+					<div class="col-3 text-right">مؤسستك</div>
+				  </div>
+				</div>
+			  </div>
+			  <div class="col justify-content-around mb-3"><button class="btn btn-success">Submit</button></div>
+			</div>
+		</div>
+		
+	</div>
+	<footer class="footer text-center" style="background-color:rgba(0, 0, 0, 0.5);">
+		<div class="py-3">
+			<small>Disclaimer</small>
+		</div>
+	</footer>
+  </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
